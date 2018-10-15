@@ -50,7 +50,7 @@ x = zeros(n, 1);
 
 
 
-
+x(unique(word_indices)) = 1;
 
 
 
